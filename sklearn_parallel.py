@@ -1,6 +1,9 @@
 """
 Demo for using xgboost with sklearn
 ===================================
+
+conda install -c conda-forge xgboost
+
 """
 from sklearn.model_selection import GridSearchCV
 from sklearn.datasets import fetch_california_housing
